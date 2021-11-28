@@ -4,7 +4,7 @@
 <div class="content" id="content">
 <div class="HomeBody" id="HomeBody">
     <div class="images" id="images">
-        <img class="BotImage" id="BotImage" src="{{url_for('static', filename='images/bot.gif')}}">
+        <img class="BotImage" id="BotImage" src="{{url_for('static', filename='images/bot.jpg')}}">
     </div>
 
     <div class="para" id="para">
@@ -13,10 +13,10 @@
 
     <div class="HomeButtons" id="HomeButtons">
         <div class="bdiv" id="bdiv1">
-        <button class="btn btn-block" id="About">About me</button>
+        <a class="btn btn-block" id="About" href="{{ url_for('about') }}">About Me</a>
         </div>
         <div class="bdiv" id="bdiv2">
-         <button class="btn btn-block" id="Chat">Lets Chat!</button>
+         <a class="btn btn-block" id="Chat" href="{{ url_for('chat') }}">Lets Chat!</a>
         </div>
         <div class="bdiv" id="bdiv3">
          <button class="btn btn-block" id="Settings">Settings</button>

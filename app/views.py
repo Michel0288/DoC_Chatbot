@@ -26,6 +26,9 @@ def about():
     """Render the website's about page."""
     return render_template('about.html', name="CompBot")
 
+@app.route('/chat/')
+def chat():
+    return render_template('chat.html')
 
 ###
 # The functions below should be applicable to all Flask apps.
