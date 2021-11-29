@@ -5,11 +5,8 @@ Werkzeug Documentation:  http://werkzeug.pocoo.org/documentation/
 This file creates your application.
 """
 
-
-from app import app
-from flask import render_template, request, redirect, url_for, flash
-from app import mail
-from flask_mail import Message
+from app import app,main
+from flask import Flask, render_template,request,jsonify
 
 ###
 # Routing for your application.
@@ -21,11 +18,18 @@ def home():
     return render_template('home.html')
 
 
-@app.route('/about/')
+@app.route('/about')
 def about():
     """Render the website's about page."""
     return render_template('about.html', name="CompBot")
 
+@app.route('/chatbot', methods=["GET", "POST"])
+def chat():
+    if request.method == 'POST':
+        the_question = request.form['question']
+        response = main.chat(the_question)
+        return jsonify({"response": response })
+    return render_template('chat.html')
 
 ###
 # The functions below should be applicable to all Flask apps.

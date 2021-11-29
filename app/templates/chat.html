@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="content" id="ChatContent">
+    <div class="ChatBody" id="ChatBody">   
+        <div id="ExtremeLeft">
+            <a id="BackButton" href="{{ url_for('home') }}"><img class="ArrowImage" id="ArrowImage" src="{{url_for('static', filename='images/arrow.png')}}"></a>
+        </div> 
+        <div id="ChatLeft">
+            <div class="images" id="images">
+                <img class="BotImage" id="BotImage" src="{{url_for('static', filename='images/bot.jpg')}}">
+            </div>
+
+            <div class="para" id="para">
+                <p id="p1">@ChatBot</p>
+                <p id="p2">Hi! I'm Comp Bot. Your Computing AI! </p>
+            </div>
+        </div>
+        <div id="ChatRight">
+            <div id="RespondArea">
+                <div id="DisplayArea">
+                <img class="BotImage" id="BotImage" src="{{url_for('static', filename='images/bot.jpg')}}">
+                <div id="BotResponse">
+                    <p id="ChatBotReply">Hi! I'm Comp Bot. Your Computing AI! </p>
+                </div>
+            </div>
+            <input type="text" id="UserInput" name="UserInput">
+            <button id="SendButton"> <img class="SendImage" id="SendImage" src="{{url_for('static', filename='images/send.png')}}"> </button>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
