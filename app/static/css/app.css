@@ -1,10 +1,22 @@
 body {
     padding-top: 5rem;
-    padding: 10px;
+    height: 100%;
+    /* background-image: url('../images/circle-scatter-haikei.svg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    padding: 5px;
+    height: 30px; 
+    width: 100%;
 }
 
 .HomeBody{
     text-align: center;
+    background-color: white;
     padding: 30px;
     border: 2px solid rgb(104, 102, 102);
     box-shadow: 2px 2px rgb(95, 95, 95);
@@ -54,8 +66,6 @@ body {
     font-weight: bold;
 }
 
-
-
 /* Chat Screen Designs */
 
 .container{
@@ -70,14 +80,22 @@ body {
 }
 
 .ChatBody{
-    width: 100%;
-    height: 500px;
+    width: 1200px;
+    height: 600px;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 3.5% 30% 66.5%;
     border-radius: 10px;
     background-color: rgb(211, 209, 209);
     padding: 10px;
+    box-shadow: 25px 25px 25px grey;
+    margin-left: 0%;
+    margin-right: 0%;
 }
+
+/* #ChatContent{
+    margin-left: 0%;
+    margin-right: 0%;
+} */
 
 .ChatBody .para{
     margin-top: 20px;
@@ -107,6 +125,21 @@ body {
     height: 250px;
 }
 
+#ExtremeLeft{
+    padding: 5px;
+    background-color: rgb(255, 217, 0);
+    border-radius: 20px;
+}
+
+#ExtremeLeft:hover{
+    background-color: rgb(0, 255, 234);
+}
+
+#ArrowImage{
+    height: 25px;
+    width: 25px;
+}
+
 #ChatLeft{
     background-color: rgb(211, 209, 209);
     padding: 20px;
@@ -131,7 +164,7 @@ body {
     display: inline;
     width: 280px;
     padding: 10px;
-    background-color: lightblue;
+    background-color: rgb(0, 255, 234);
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -158,10 +191,10 @@ body {
 }
 
 #UserInput{
-margin-top: 350px;
+margin-top: 450px;
 margin-right: 5px;
 margin-left: 5px;
-width: 85%;
+width: 90%;
 padding: 5px;
 border-radius: 20px;
 background-color: rgb(211, 209, 209);
@@ -170,40 +203,128 @@ background-color: rgb(211, 209, 209);
 #SendButton{
     display: inline;
     border-radius: 20px;
-    background-color: blue;
+    background-color: rgb(255, 217, 0);
     color: white;
-    width: 80px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
 }
 
-
-
-
-
-
-.flashes{
-    padding: 0;
-}
-.flashes li{
-    list-style-type: none;
-    border-radius: 5px;
-    padding: 1rem;
-
+#SendButton:hover{
+    background-color: rgb(0, 255, 234);
 }
 
-.flashes .success{
-    background-color: #B1EA7F;
-    border: 1px solid #43A120;
+#SendImage{
+    height: 25px;
+    width: 25px;
 }
 
-.flashes .danger{
-    background-color: #DB2C3B;
-    color: white;
-    font-weight: bold;
-    border: 1px solid #B71E39;
-}
-.required{
-    color: red;
-    font-weight: bold;
+/* Bubble Animation Styles */
+
+.AnimationDiv{
+    background-color: rgb(255, 217, 0);
+    background-position: 0%;
+    border-radius: 100%;
+    animation: 4s linear infinite;
+    z-index: -100;
 }
 
+#Circle1{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    animation: animate 8s linear infinite;
+}
 
+#Circle2{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    animation: animate 8s linear infinite;
+}
+
+#Circle3{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 8%;
+    left: 70%;
+    animation: animate 10s linear infinite;
+}
+
+#Circle4{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 40%;
+    left: 25%;
+    animation: animate 8s linear infinite;
+}
+
+#Circle5{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 95%;
+    left: 44%;
+    animation: animate 6s linear infinite;
+}
+
+#Circle6{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 65%;
+    left: 90%;
+    animation: animate 5s linear infinite;
+}
+
+#Circle7{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 80%;
+    left: 80%;
+    animation: animate 10s linear infinite;
+}
+
+#Circle8{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 47%;
+    left: 3%;
+    animation: animate 5s linear infinite;
+}
+
+#Circle9{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 62%;
+    left: 5%;
+    animation: animate 10s linear infinite;
+}
+
+#Circle10{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 5%;
+    left: 50%;
+    animation: animate 8s linear infinite;
+} 
+
+@keyframes animate{
+    0%{
+        transform: scale(0) translateY(0) rotate(70deg);
+    }
+
+    100%{
+        transform: scale(1.3) translateY(-100px) rotate(0deg);
+    }
+}

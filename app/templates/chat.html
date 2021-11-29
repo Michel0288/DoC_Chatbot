@@ -2,7 +2,10 @@
 
 {% block main %}
 <div class="content" id="ChatContent">
-    <div class="ChatBody" id="ChatBody">    
+    <div class="ChatBody" id="ChatBody">   
+        <div id="ExtremeLeft">
+            <a id="BackButton" href="{{ url_for('home') }}"><img class="ArrowImage" id="ArrowImage" src="{{url_for('static', filename='images/arrow.png')}}"></a>
+        </div> 
         <div id="ChatLeft">
             <div class="images" id="images">
                 <img class="BotImage" id="BotImage" src="{{url_for('static', filename='images/bot.jpg')}}">
@@ -22,7 +25,7 @@
                 </div>
             </div>
             <input type="text" id="UserInput" name="UserInput">
-            <button id="SendButton"> Send </button>
+            <button id="SendButton"> <img class="SendImage" id="SendImage" src="{{url_for('static', filename='images/send.png')}}"> </button>
             </div>
             
         </div>
