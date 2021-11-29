@@ -1,4 +1,5 @@
 jQuery(document).ready(function() {
+  console.log("Hello")
     $("#SendButton").click(function(e) {
       e.preventDefault();
 
