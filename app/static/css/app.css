@@ -66,12 +66,11 @@ body {
 }
 #chatarea{
     padding-top:5px;
-    padding-bottom:50px;
-    width:956px;
-    height:533px;
+    width:880px;
+    height:460px;
     margin-bottom: 5px;
     overflow-y: auto;
-    background-color: #B71E39;
+    /* background-color: #B71E39; */
 }
 input{
     height:46px;

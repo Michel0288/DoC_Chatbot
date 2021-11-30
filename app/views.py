@@ -17,20 +17,21 @@ def home():
     """Render website's home page."""
     return render_template('home.html')
 
+@app.route('/chatbot', methods=["GET", "POST"])
+def chat():
+    if request.method == 'POST':
+        userinput = request.form['userinput']
+        response = main.chat_bot(userinput)
+        return jsonify({"response": response })
+    return render_template('chat.html')
+
 
 @app.route('/about')
 def about():
     """Render the website's about page."""
     return render_template('about.html', name="CompBot")
 
-@app.route('/chatbot', methods=["GET", "POST"])
-def chat():
-    if request.method == 'POST':
-        the_question = request.form['userinput']
-        if(the_question!=''):
-            response = main.chat(the_question)
-            return jsonify({"response": response })
-    return render_template('chat.html')
+
 
 ###
 # The functions below should be applicable to all Flask apps.
