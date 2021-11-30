@@ -64,7 +64,7 @@
         "responses": ["COMP1126 will last for 6 weeks.","The course will last for the first six weeks in the semester."],
         "context_set": ""
         },
-        {"tag":"COMP1127",
+        {"tag":"COMP1127, Introduction to Programming II",
         "patterns": ["what is comp1127 about?","what is comp1127?","comp1127 aims"],
         "responses": ["The primary goal of the course is to introduce students to the big ideas in Computer Science, and how they are used to control the complexity of developing large computational systems. In this course, recognising patterns of problem solving is more important than the efficiency of the solutions themselves. An interpreted language is used to facilitate rapid feedback to the student as she experiments with proposed solutions to a problem. We hope that this mode of interaction will build confidence in students as they learn the joys and challenges of programming. This course continues the entry level course COMP1126. It covers concepts and tools that are essential in strengthening the learning of programming. These include data structures and higher order functions."],
         "context_set": ""

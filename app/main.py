@@ -8,9 +8,8 @@ import tensorflow
 from tensorflow.python.framework import ops
 import random
 import json
-import pickle
 
-with open("app/datafile.json") as file:
+with open("app/datafile1.json") as file:
     data = json.load(file)
 
 # try:

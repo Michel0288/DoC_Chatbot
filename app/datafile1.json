@@ -1,0 +1,1425 @@
+{"intents": [
+        {"tag": "greeting",
+        "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+        "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+        "context_set": ""
+        },
+        {"tag": "goodbye",
+        "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "Farewell"],
+        "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "Okay! It was nice helping you.", "Goodbye! Enjoy the rest of your day", "Adios mi amigos.", "Good bye my new friend.", "See you again soon.", "So long fare well to you my friend!", "Goodbye for now until we meet again!"],
+        "context_set": ""
+        },
+        {"tag": "age",
+        "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+        "responses": ["I am 18 years old!", "18 years young!"],
+        "context_set": ""
+        },
+        {"tag": "name",
+        "patterns": ["what is your name", "what should I call you", "whats your name?"],
+        "responses": ["You can call me CompBot.", "I'm Compbot!"],
+        "context_set": ""
+        },
+        {"tag": "requirements",
+        "patterns": ["what are the requirements?", "How many subjects do I need to enter the department?", "what are the entry requirements?"],
+        "responses": ["5 CSEC subjects(grades 1-3), or equivalent(must include Engliash, Math and at least 2 science subjects) plus a science subject at the advance level-CAPE(both units at grades 1-5) or a Teacher's College Diploma or Associate Degree in Math,Science or Infomation Technology"],
+        "context_set": ""
+        },
+        {"tag": "computing",
+        "patterns": ["why computing?", "why choose computing?"],
+        "responses": ["The Department is committed to delivering high quility taught programmes that prepare students to compete in a global marketplace","The programmes offered have been set out in the IEEE/ACM guides for computing curricula.Our students are therefore assured that course contents are aligned with international standards.The high performance of our graduates in the workplace serves as a proven track record.","The range of assesment methods and techniques employed, enable students to demonstrate the depth of their understanding and their capacity for independent thought."],
+        "context_set": ""
+        },
+        {"tag": "programmes",
+        "patterns": ["how many programmes are offered at the undergraduate level?","what bachelor of science programmes are offered?", "how many programmes does the department offer?","what programmes do the department offer?"],
+        "responses": ["We offer Bachelor of Science Degrees in Computer Science,Computer Studies, Information Technology, Software Engineering, Computer Systems Engineering"],
+        "context_set": ""
+        },
+        {"tag": "computing minors",
+        "patterns":["What courses can I do as minor in Computing?", "What minors does computing offer?", "Can I minor in the computing department?", "What minors are offered?"],        
+        "responses": ["We offer minors in Computer Science, Information Technology and Software Engineering."],
+        "context_set": ""
+        },
+        {"tag": "careers",
+        "patterns": ["what careers can I get with a computing degree?","what jobs can I get with a computing degree?","what can i become with a computer science degree?"],
+        "responses": ["Careers are not limited to: Software Engineer/Developer, Database Admin,Entrepreneur,Multimedia Specialist, Network Admin, Researcher/Teacher/Lecturer, Computer Analyst, Web Master/Admin,Information Tech Project Manager, Technical Writer, Computer Systems Engineer"],
+        "context_set": ""
+        },
+        {"tag":"COMP1126",
+        "patterns": ["what is comp1126 about?","what is comp1126?","comp1126 aims"],
+        "responses": ["This course is intended to lay the foundations for developing good problem solving skills within students of Computing. As a consequence, no knowledge of programming is assumed as a prerequisite to this course, yet at the end of the course students would have been exposed in a concrete way to computation, and the tools that have been developed to control its complexity as well as implement its processes in physical devices.This course therefore serves as one of the cornerstone courses of the entire curriculum for the Information Technology programme and the Computer Science major, and requires only that students come to it prepared to think in ways unfamiliar to them."],
+        "context_set": ""
+        },
+        {"tag":"COMP1126 prerequisite",
+        "patterns": ["what do i have to do before comp1126?","what are comp1126 prerequisites?","what courses are required to do comp1126?", "comp1126 prerequisites","what are the prerequisites for comp1126?"],
+        "responses": ["A CAPE (Units 1 and 2 {or A-level}) Science subject, ECON1003, Teacher’s College Diploma, Associate Degree in Mathematics or Science OR Information Technology"],
+        "context_set": ""
+        },
+        {"tag":"COMP1126 Semester",
+        "patterns": ["Which semester is comp1126 offered?","comp1126 semester","Which semester should I do comp1126 in?"],
+        "responses": ["Semester I & Semester II"],
+        "context_set": ""
+        },
+        {"tag":"COMP1126 credits",
+        "patterns": ["How many credits does comp1126 has?","comp1126 credits","how many credits is comp1126?"],
+        "responses": ["COMP1126 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP1126 duration",
+        "patterns": ["How long will comp1126 last?","how long is comp1126?","comp1126 duration"],
+        "responses": ["COMP1126 will last for 6 weeks.","The course will last for the first six weeks in the semester."],
+        "context_set": ""
+        },
+        {"tag":"COMP1127",
+        "patterns": ["what is comp1127 about?","what is comp1127?","comp1127 aims"],
+        "responses": ["The primary goal of the course is to introduce students to the big ideas in Computer Science, and how they are used to control the complexity of developing large computational systems. In this course, recognising patterns of problem solving is more important than the efficiency of the solutions themselves. An interpreted language is used to facilitate rapid feedback to the student as she experiments with proposed solutions to a problem. We hope that this mode of interaction will build confidence in students as they learn the joys and challenges of programming. This course continues the entry level course COMP1126. It covers concepts and tools that are essential in strengthening the learning of programming. These include data structures and higher order functions."],
+        "context_set": ""
+        },
+        {"tag":"COMP1127 prerequisite",
+        "patterns": ["what do i have to do before comp1127?","what are comp1127 prerequisites?","what courses are required to do comp1127?", "comp1127 prerequisites","what are the prerequisites for comp1127?"],
+        "responses": ["A CAPE (Units 1 and 2 {or A-level}) Science subject, ECON1003, Teacher’s College Diploma, Associate Degree in Mathematics or Science OR Information Technology"],
+        "context_set": ""
+        },
+        {"tag":"COMP1127 Semester",
+        "patterns": ["Which semester is comp1127 offered?","comp11267 semester"],
+        "responses": ["Semester I & Semester II"],
+        "context_set": ""
+        },
+        {"tag":"COMP1127 credits",
+        "patterns": ["How many credits does comp1127 have?","comp1127 credits","how many credits is comp1127?"],
+        "responses": ["COMP1127 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP1127 duration",
+        "patterns": ["How long will comp1127 last?","how long is comp1127?","comp1127 duration"],
+        "responses": ["COMP1127 will last for 6 weeks.","The course will last for the last six weeks in the semester."],
+        "context_set": ""
+        },
+        {"tag": "COMP1161",
+        "patterns": ["what is comp1161 about?","what is comp1161?","comp1161 aims"],
+        "responses": ["This course covers the methodology of programming from an object-oriented perspective, and introduces OOP principles using a language that supports the OOP paradigm. It also introduces object-oriented testing and debugging techniques, as well as the basics of graphical user interface programming and event-driven programming. The course continues the introduction to programming started in COMP1126 and continued in COMP1127."],
+        "context_set": ""       
+        },
+        {"tag":"COMP1161 prerequisite",
+        "patterns": ["what do i have to do before COMP1161?","what are COMP1161 prerequisites?","what courses are required to do COMP1161?", "COMP1161 prerequisites","what are the prerequisites for COMP1161?"],
+        "responses": ["The prerequisites for COMP1161 is successsfully completing the COMP1126 and COMP1127 courses"],
+        "context_set": ""
+        },
+        {"tag":"COMP1161 Semester",
+        "patterns": ["Which semester is COMP1161 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"COMP1161 credits",
+        "patterns": ["How many credits does COMP1161 have?","COMP1161 credits","how many credits is COMP1161?"],
+        "responses": ["COMP1161 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP1161 duration",
+        "patterns": ["How long will COMP1161 last?","how long is COMP1161?","COMP1161 duration"],
+        "responses": ["COMP1161 will last for the entire semester."],
+        "context_set": ""
+        },
+        {"tag": "COMP1220",
+        "patterns": ["what is COMP1220 about?","what is COMP1220?","COMP1220 aims"],
+        "responses": ["This course on Computing and society examines the relatively short history of computing and establishes context and trends. It looks at the emergence of different programming languages and paradigms and the significant impact they have had. Computing has a social context that the course examines. Issues of professional ethics and risks of computing products are also examined."],
+        "context_set": ""       
+        },
+        {"tag":"COMP1220 prerequisite",
+        "patterns": ["what do i have to do before COMP1220?","what are COMP1220 prerequisites?","what courses are required to do COMP1220?", "COMP1220 prerequisites","what are the prerequisites for COMP1220?"],
+        "responses": ["There are no prerequisites for COMP1220."],
+        "context_set": ""
+        },
+        {"tag":"COMP1220 Semester",
+        "patterns": ["Which semester is COMP1220 offered?","comp11267 semester"],
+        "responses": ["Semester I & Semester II"],
+        "context_set": ""
+        },
+        {"tag":"COMP1220 credits",
+        "patterns": ["How many credits does COMP1220 have?","COMP1220 credits","how many credits is COMP1220?"],
+        "responses": ["COMP1220 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP1220 duration",
+        "patterns": ["How long will COMP1220 last?","how long is COMP1220?","COMP1220 duration"],
+        "responses": ["COMP1220 will last for the entire semester."],
+        "context_set": ""
+        },
+        {"tag": "COMP1210",
+        "patterns": ["what is COMP1210 about?","what is COMP1210?","COMP1210 aims"],
+        "responses": ["Discrete structures include important material from such areas as set theory, logic, graph theory, and combinatorics. This material is foundational for computing. This course includes a body of material of a mathematical nature that computer science and information technology education must include. The course material forms the basis of knowledge necessary for specialization in computing."],
+        "context_set": ""       
+        },
+        {"tag":"COMP1210 prerequisite",
+        "patterns": ["what do i have to do before COMP1210?","what are COMP1210 prerequisites?","what courses are required to do COMP1210?", "COMP1210 prerequisites","what are the prerequisites for COMP1210?"],
+        "responses": ["The prerequisite for COMP1210 IS CSEC Mathematics"],
+        "context_set": ""
+        },
+        {"tag":"COMP1210 Semester",
+        "patterns": ["Which semester is COMP1210 offered?","comp11267 semester"],
+        "responses": ["Semester I & Semester II"],
+        "context_set": ""
+        },
+        {"tag":"COMP1210 credits",
+        "patterns": ["How many credits does COMP1210 have?","COMP1210 credits","how many credits is COMP1210?"],
+        "responses": ["COMP1210 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP1210 duration",
+        "patterns": ["How long will COMP1210 last?","how long is COMP1210?","COMP1210 duration"],
+        "responses": ["COMP1210 will last for the entire semester."],
+        "context_set": ""
+        },
+        {"tag": "COMP2140",
+        "patterns": ["what is COMP2140 about?","what is COMP2140?","COMP2140 aims"],
+        "responses": ["The primary goal of the course will be to introduce students to the intricacies in planning and developing large information systems and emphasizing the need for different methods. The students will be introduced to certain techniques and tools to facilitate large information systems development."],
+        "context_set": ""       
+        },
+        {"tag":"COMP2140 prerequisite",
+        "patterns": ["what do i have to do before COMP2140?","what are COMP2140 prerequisites?","what courses are required to do COMP2140?", "COMP2140 prerequisites","what are the prerequisites for COMP2140?"],
+        "responses": ["COMP1126 - Introduction to Computing I, COMP1127 - Introduction to Computing II AND COMP1161- Object-Oriented Programming."],
+        "context_set": ""
+        },
+        {"tag":"COMP2140 Semester",
+        "patterns": ["Which semester is COMP2140 offered?","comp11267 semester"],
+        "responses": ["Semester I"],
+        "context_set": ""
+        },
+        {"tag":"COMP2140 credits",
+        "patterns": ["How many credits does COMP2140 have?","COMP2140 credits","how many credits is COMP2140?"],
+        "responses": ["COMP2140 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP2140 duration",
+        "patterns": ["How long will COMP2140 last?","how long is COMP2140?","COMP2140 duration"],
+        "responses": ["COMP2140 will last for the entire semester."],
+        "context_set": ""
+        },
+        {"tag": "COMP2190",
+        "patterns": ["what is COMP2190 about?","what is COMP2190?","COMP2190 aims"],
+        "responses": ["The course will provide students with an understanding of the various technologies involved in developing systems and providing services in such distributed environments. It examines the protocols that underpin the interaction among the heterogeneous platforms, the services that are provided by combining various elements of these platforms and ways in which these end systems are presented."],
+        "context_set": ""       
+        },
+        {"tag":"COMP2190 prerequisite",
+        "patterns": ["what do i have to do before COMP2190?","what are COMP2190 prerequisites?","what courses are required to do COMP2190?", "COMP2190 prerequisites","what are the prerequisites for COMP2190?"],
+        "responses": ["COMP1126 - Introduction to Computing I, COMP1127 - Introduction to Computing II, COMP1161 - Object-Oriented Programming AND COMP1210 - Mathematics for Computing or MATH1152 - Introduction to Formal Mathematics). May not be credited with COMP3150 - Computing Networking and Communications."],
+        "context_set": ""
+        },
+        {"tag":"COMP2190 Semester",
+        "patterns": ["Which semester is COMP2190 offered?","comp11267 semester"],
+        "responses": ["Semester I"],
+        "context_set": ""
+        },
+        {"tag":"COMP2190 credits",
+        "patterns": ["How many credits does COMP2190 have?","COMP2190 credits","how many credits is COMP2190?"],
+        "responses": ["COMP2190 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP2190 duration",
+        "patterns": ["How long will COMP2190 last?","how long is COMP2190?","COMP2190 duration"],
+        "responses": ["COMP2190 will last for the entire semester."],
+        "context_set": ""
+        },
+        {"tag": "COMP2130",
+        "patterns": ["what is COMP2130 about?","what is COMP2130?","COMP2130 aims"],
+        "responses": ["The course will introduce students to Computer Systems and Unix Developmeny Tools, Assembly code. memory layout and execution of Unix Processes."],
+        "context_set": ""       
+        },
+        {"tag":"COMP2130 prerequisite",
+        "patterns": ["what do i have to do before COMP2130?","what are COMP2130 prerequisites?","what courses are required to do COMP2130?", "COMP2130 prerequisites","what are the prerequisites for COMP2130?"],
+        "responses": ["COMP1126 - Introduction to Computing I, COMP1127 - Introduction to Computing II and COMP1161- Object-Oriented Programming."],
+        "context_set": ""
+        },
+        {"tag":"COMP2130 Semester",
+        "patterns": ["Which semester is COMP2130 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"COMP2130 credits",
+        "patterns": ["How many credits does COMP2130 have?","COMP2130 credits","how many credits is COMP2130?"],
+        "responses": ["COMP2130 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP2130 duration",
+        "patterns": ["How long will COMP2130 last?","how long is COMP2130?","COMP2130 duration"],
+        "responses": ["COMP2130 will last for the entire semester."],
+        "context_set": ""
+        },
+        {"tag": "COMP2171",
+        "patterns": ["what is COMP2171 about?","what is COMP2171?","COMP2171 aims"],
+        "responses": ["The course will introduce students to the fundamentals of Object Orientation, identifying classes and class relationships, objects and relationships between objects, modeling and software architecture."],
+        "context_set": ""       
+        },
+        {"tag":"COMP2171 prerequisite",
+        "patterns": ["what do i have to do before COMP2171?","what are COMP2171 prerequisites?","what courses are required to do COMP2171?", "COMP2171 prerequisites","what are the prerequisites for COMP2171?"],
+        "responses": ["COMP1126 - Introduction to Computing I, COMP1127 - Introduction to Computing II, COMP1161 - Object-Oriented Programming and COMP1210 - Mathematics for Computing or MATH1152 - Introduction to Formal Mathematics"],
+        "context_set": ""
+        },
+        {"tag":"COMP2171 Semester",
+        "patterns": ["Which semester is COMP2171 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"COMP2171 credits",
+        "patterns": ["How many credits does COMP2171 have?","COMP2171 credits","how many credits is COMP2171?"],
+        "responses": ["COMP2171 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP2171 duration",
+        "patterns": ["How long will COMP2171 last?","how long is COMP2171?","COMP2171 duration"],
+        "responses": ["COMP2171 will last for the entire semester."],
+        "context_set": ""
+        },
+        {"tag": "COMP2201",
+        "patterns": ["what is COMP2201 about?","what is COMP2201?","COMP2201 aims"],
+        "responses": ["The course will introduce students to the basics of counting, asymptotic analysis, graph theory, elementary probability theory, generating functions, recurrence relations and introduction to automata, grammars and languages."],
+        "context_set": ""       
+        },
+        {"tag":"COMP2201 prerequisite",
+        "patterns": ["what do i have to do before COMP2201?","what are COMP2201 prerequisites?","what courses are required to do COMP2201?", "COMP2201 prerequisites","what are the prerequisites for COMP2201?"],
+        "responses": ["COMP1210 - Mathematics for Computing or MATH1152 - Introduction to Formal Mathematics."],
+        "context_set": ""
+        },
+        {"tag":"COMP2201 Semester",
+        "patterns": ["Which semester is COMP2201 offered?","comp11267 semester"],
+        "responses": ["Semester I"],
+        "context_set": ""
+        },
+        {"tag":"COMP2201 credits",
+        "patterns": ["How many credits does COMP2201 have?","COMP2201 credits","how many credits is COMP2201?"],
+        "responses": ["COMP2201 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP2201 duration",
+        "patterns": ["How long will COMP2201 last?","how long is COMP2201?","COMP2201 duration"],
+        "responses": ["COMP2201 will last for the entire semester."],
+        "context_set": ""
+        },
+        {"tag": "COMP2211",
+        "patterns": ["what is COMP2211 about?","what is COMP2211?","COMP2211 aims"],
+        "responses": ["This course introduces the student to techniques for designing and analysing efficient algorithms. The emphasis is on the principles at work in algorithms that solve some common problems in a variety of topics, and on techniques for analysing algorithm performance. Students who take this course should already be familiar with writing Mathematical proofs, and be able to argue rigorously about abstract objects such as numbers, functions and graphs."],
+        "context_set": ""       
+        },
+        {"tag":"COMP2211 prerequisite",
+        "patterns": ["what do i have to do before COMP2211?","what are COMP2211 prerequisites?","what courses are required to do COMP2211?", "COMP2211 prerequisites","what are the prerequisites for COMP2211?"],
+        "responses": ["COMP1126 - Introduction to Computing I, COMP1127 - Introduction to Computing II, COMP1161 - Object-Oriented Programming and COMP1210 - Mathematics for Computing."],
+        "context_set": ""
+        },
+        {"tag":"COMP2211 Semester",
+        "patterns": ["Which semester is COMP2211 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"COMP2211 credits",
+        "patterns": ["How many credits does COMP2211 have?","COMP2211 credits","how many credits is COMP2211?"],
+        "responses": ["COMP2211 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP2211 duration",
+        "patterns": ["How long will COMP2211 last?","how long is COMP2211?","COMP2211 duration"],
+        "responses": ["COMP2211 will last for the entire semester."],
+        "context_set": ""
+        },
+        {"tag": "COMP2340",
+        "patterns": ["what is COMP2340 about?","what is COMP2340?","COMP2340 aims"],
+        "responses": ["This course aims to introduce students to the principles behind the organization of a computing system. It identifies the primitive building blocks from which computers are built, and describes how information is represented physically. It describes the techniques used to control the complexity of building increasingly sophisticated components from simpler ones. Item It makes explicit the relationship between instruction execution and changes in hardware state."],
+        "context_set": ""       
+        },
+        {"tag":"COMP2340 prerequisite",
+        "patterns": ["what do i have to do before COMP2340?","what are COMP2340 prerequisites?","what courses are required to do COMP2340?", "COMP2340 prerequisites","what are the prerequisites for COMP2340?"],
+        "responses": ["COMP1126 - Introduction to Computing I, COMP1127 - Introduction to Computing II, COMP1161 - Object-Oriented Programming and COMP1210 - Mathematics for Computing."],
+        "context_set": ""
+        },
+        {"tag":"COMP2340 Semester",
+        "patterns": ["Which semester is COMP2340 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"COMP2340 credits",
+        "patterns": ["How many credits does COMP2340 have?","COMP2340 credits","how many credits is COMP2340?"],
+        "responses": ["COMP2340 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP2340 duration",
+        "patterns": ["How long will COMP2340 last?","how long is COMP2340?","COMP2340 duration"],
+        "responses": ["COMP2340 will last for the entire semester."],
+        "context_set": ""
+        },
+        {"tag": "COMP2802",
+        "patterns": ["what is COMP2802 about?","what is COMP2802?","COMP2802 aims"],
+        "responses": ["This course aims to introduce students to Speaking; Hearing; Sounds and symbols; Articulatory and acoustic phonetics; Phonology; Prosody; Speech spectra; Sampling; Fourier transform; Linear filters; Linear prediction; Cepstral analysis."],
+        "context_set": ""       
+        },
+        {"tag":"COMP2802 prerequisite",
+        "patterns": ["what do i have to do before COMP2802?","what are COMP2802 prerequisites?","what courses are required to do COMP2802?", "COMP2802 prerequisites","what are the prerequisites for COMP2802?"],
+        "responses": ["COMP1126 - Introduction to Computing I, COMP1127 - Introduction to Computing II and ELET2460 - Signals and Systems."],
+        "context_set": ""
+        },
+        {"tag":"COMP2802 Semester",
+        "patterns": ["Which semester is COMP2802 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"COMP2802 credits",
+        "patterns": ["How many credits does COMP2802 have?","COMP2802 credits","how many credits is COMP2802?"],
+        "responses": ["COMP2802 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP2802 duration",
+        "patterns": ["How long will COMP2802 last?","how long is COMP2802?","COMP2802 duration"],
+        "responses": ["COMP2802 will last for the entire semester."],
+        "context_set": ""
+        },
+        {"tag": "INFO2100",
+        "patterns": ["what is INFO2100 about?","what is INFO2100?","INFO2100 aims"],
+        "responses": ["This course introduces probability and statistics to students of Information Technology as well as the application of these concepts to the computing discipline. It examines the basic concepts of probability theory including counting and measuring and conditional probability and independence of events. It studies discrete, continuous, and joint random variables and functions of random variables."],
+        "context_set": ""       
+        },
+        {"tag":"INFO2100 prerequisite",
+        "patterns": ["what do i have to do before INFO2100?","what are INFO2100 prerequisites?","what courses are required to do INFO2100?", "INFO2100 prerequisites","what are the prerequisites for INFO2100?"],
+        "responses": ["COMP1210 - Mathematics for Computing"],
+        "context_set": ""
+        },
+        {"tag":"INFO2100 Semester",
+        "patterns": ["Which semester is INFO2100 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"INFO2100 credits",
+        "patterns": ["How many credits does INFO2100 have?","INFO2100 credits","how many credits is INFO2100?"],
+        "responses": ["INFO2100 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"INFO2100 duration",
+        "patterns": ["How long will INFO2100 last?","how long is INFO2100?","INFO2100 duration"],
+        "responses": ["INFO2100 will last for the entire semester."],
+        "context_set": ""
+        },
+        {"tag": "INFO2110",
+        "patterns": ["what is INFO2110 about?","what is INFO2110?","INFO2110 aims"],
+        "responses": ["This course covers several data structures and seeks to equip the student with these as tools for managing data in their programs. From simple and structured data types the course progresses through some commonly used built- in data structures to special-purpose user-defined structures."],
+        "context_set": ""       
+        },
+        {"tag":"INFO2110 prerequisite",
+        "patterns": ["what do i have to do before INFO2110?","what are INFO2110 prerequisites?","what courses are required to do INFO2110?", "INFO2110 prerequisites","what are the prerequisites for INFO2110?"],
+        "responses": ["COMP1126 - Introduction to Computing I, COMP1127 - Introduction to Computing II and COMP1161- Object-Oriented Programming."],
+        "context_set": ""
+        },
+        {"tag":"INFO2110 Semester",
+        "patterns": ["Which semester is INFO2110 offered?","comp11267 semester"],
+        "responses": ["Semester I"],
+        "context_set": ""
+        },
+        {"tag":"INFO2110 credits",
+        "patterns": ["How many credits does INFO2110 have?","INFO2110 credits","how many credits is INFO2110?"],
+        "responses": ["INFO2110 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"INFO2110 duration",
+        "patterns": ["How long will INFO2110 last?","how long is INFO2110?","INFO2110 duration"],
+        "responses": ["INFO2110 will last for the entire semester."],
+        "context_set": ""
+        },
+        {"tag": "INFO2180",
+        "patterns": ["what is INFO2180 about?","what is INFO2180?","INFO2180 aims"],
+        "responses": ["This course covers the foundations of the technologies that enable the creation of interactive websites that process and modify server-based data. This includes fundamental networking technologies, data representation for the web, web UI design and site design, client-server architecture and client-side and server-side programming. It covers the fundamentals of e-commerce, web security, ethical and social issues, and relevant software engineering concepts such as the three-tier architecture and frameworks for the web."],
+        "context_set": ""       
+        },
+        {"tag":"INFO2180 prerequisite",
+        "patterns": ["what do i have to do before INFO2180?","what are INFO2180 prerequisites?","what courses are required to do INFO2180?", "INFO2180 prerequisites","what are the prerequisites for INFO2180?"],
+        "responses": ["COMP1126 - Introduction to Computing I, COMP1127 - Introduction to Computing II and COMP1161- Object-Oriented Programming."],
+        "context_set": ""
+        },
+        {"tag":"INFO2180 Semester",
+        "patterns": ["Which semester is INFO2180 offered?","comp11267 semester"],
+        "responses": ["Semester I"],
+        "context_set": ""
+        },
+        {"tag":"INFO2180 credits",
+        "patterns": ["How many credits does INFO2180 have?","INFO2180 credits","how many credits is INFO2180?"],
+        "responses": ["INFO2180 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"INFO2180 duration",
+        "patterns": ["How long will INFO2180 last?","how long is INFO2180?","INFO2180 duration"],
+        "responses": ["INFO2180 will last for the entire semester."],
+        "context_set": ""
+        },
+        {"tag": "SWEN2165",
+        "patterns": ["what is SWEN2165 about?","what is SWEN2165?","SWEN2165 aims"],
+        "responses": ["This course introduces students to interacting with stakeholders, requirements evolution, analyzing requirements, requirements documentation, security in requirements analysis and specification and requirements engineering tools."],
+        "context_set": ""       
+        },
+        {"tag":"SWEN2165 prerequisite",
+        "patterns": ["what do i have to do before SWEN2165?","what are SWEN2165 prerequisites?","what courses are required to do SWEN2165?", "SWEN2165 prerequisites","what are the prerequisites for SWEN2165?"],
+        "responses": ["COMP2140 - Software Engineering."],
+        "context_set": ""
+        },
+        {"tag":"SWEN2165 Semester",
+        "patterns": ["Which semester is SWEN2165 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"SWEN2165 credits",
+        "patterns": ["How many credits does SWEN2165 have?","SWEN2165 credits","how many credits is SWEN2165?"],
+        "responses": ["SWEN2165 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"SWEN2165 duration",
+        "patterns": ["How long will SWEN2165 last?","how long is SWEN2165?","SWEN2165 duration"],
+        "responses": ["SWEN2165 will last for the entire semester."],
+        "context_set": ""
+        },
+        {"tag": "COMP3161",
+        "patterns": ["what is COMP3161 about?","what is COMP3161?","COMP3161 aims"],
+        "responses": ["This course aims to introduce students to the principles behind Database Management Systems. Students will gain practical experience in designing a database driven application using current Database design techniques, as well as implementing, manipulating and maintaining, this application using current Database Management System Technology. In addition to this practical exposure, students should be able to discuss current trends in Database technology."],
+        "context_set": ""       
+        },
+        {"tag":"COMP3161 prerequisite",
+        "patterns": ["what do i have to do before COMP3161?","what are COMP3161 prerequisites?","what courses are required to do COMP3161?", "COMP3161 prerequisites","what are the prerequisites for COMP3161?"],
+        "responses": ["COMP1126 - Introduction to Computing I, COMP1127 - Introduction to Computing I, COMP1210 - Mathematics for Computing and COMP1161 - Object-Oriented Programming."],
+        "context_set": ""
+        },
+        {"tag":"COMP3161 Semester",
+        "patterns": ["Which semester is COMP3161 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"COMP3161 credits",
+        "patterns": ["How many credits does COMP3161 have?","COMP3161 credits","how many credits is COMP3161?"],
+        "responses": ["COMP3161 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP3161 duration",
+        "patterns": ["How long will COMP3161 last?","how long is COMP3161?","COMP3161 duration"],
+        "responses": ["COMP3161 will last for the entire semester."],
+        "context_set": ""
+        },
+        {"tag": "COMP3162",
+        "patterns": ["what is COMP3162 about?","what is COMP3162?","COMP3162 aims"],
+        "responses": ["This course introduces the basic foundational concepts in data analysis. The student will be provided with hands on experience applying several techniques and implementing algorithms to access, transform and analyze data to provide for better understanding of underlying trends. The course will primarily focus on analysis of relatively small datasets, however, issues and concepts related to Big-Data will be discussed."],
+        "context_set": ""       
+        },
+        {"tag":"COMP3162 prerequisite",
+        "patterns": ["what do i have to do before COMP3162?","what are COMP3162 prerequisites?","what courses are required to do COMP3162?", "COMP3162 prerequisites","what are the prerequisites for COMP3162?"],
+        "responses": ["COMP2201- Discreet Mathematics for Computer Science or INFO2100 - Mathematics and Statistics for I.T and COMP2211- Analysis of Algorithms or INFO2110 - Data Structures for I.T"],
+        "context_set": ""
+        },
+        {"tag":"COMP3162 Semester",
+        "patterns": ["Which semester is COMP3162 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"COMP3162 credits",
+        "patterns": ["How many credits does COMP3162 have?","COMP3162 credits","how many credits is COMP3162?"],
+        "responses": ["COMP3162 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP3162 duration",
+        "patterns": ["How long will COMP3162 last?","how long is COMP3162?","COMP3162 duration"],
+        "responses": ["COMP3162 will last for the entire semester."],
+        "context_set": ""
+        },
+        {"tag": "COMP3191",
+        "patterns": ["what is COMP3191 about?","what is COMP3191?","COMP3191 aims"],
+        "responses": ["This course builds upon the introductory content that was presented in COMP2190 with an emphasis on computer networking, and covers the fundamental concepts underlying computer networks and the Internet. These concepts are examined from the viewpoints of the application, transport, network, and link and physical layers. This course also surveys the design trade-offs inherent in various communications protocols implemented at different networking layers."],
+        "context_set": ""       
+        },
+        {"tag":"COMP3191 prerequisite",
+        "patterns": ["what do i have to do before COMP3191?","what are COMP3191 prerequisites?","what courses are required to do COMP3191?", "COMP3191 prerequisites","what are the prerequisites for COMP3191?"],
+        "responses": ["COMP2190 - Net Centric Computing."],
+        "context_set": ""
+        },
+        {"tag":"COMP3191 Semester",
+        "patterns": ["Which semester is COMP3191 offered?","comp11267 semester"],
+        "responses": ["Semester I"],
+        "context_set": ""
+        },
+        {"tag":"COMP3191 credits",
+        "patterns": ["How many credits does COMP3191 have?","COMP3191 credits","how many credits is COMP3191?"],
+        "responses": ["COMP3191 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP3191 duration",
+        "patterns": ["How long will COMP3191 last?","how long is COMP3191?","COMP3191 duration"],
+        "responses": ["COMP3191 will last for the entire semester."],
+        "context_set": ""
+        },
+        {"tag": "COMP3192",
+        "patterns": ["what is COMP3192 about?","what is COMP3192?","COMP3192 aims"],
+        "responses": ["COMP3192 is a laboratory-focused course on the implementation of computer networks. Students will learn how to configure various networking protocols, e.g., DHCP, DNS, RIP, and OSPF in a laboratory environment."],
+        "context_set": ""       
+        },
+        {"tag":"COMP3192 prerequisite",
+        "patterns": ["what do i have to do before COMP3192?","what are COMP3192 prerequisites?","what courses are required to do COMP3192?", "COMP3192 prerequisites","what are the prerequisites for COMP3192?"],
+        "responses": ["COMP3191 - Principles of Computer Networking."],
+        "context_set": ""
+        },
+        {"tag":"COMP3192 Semester",
+        "patterns": ["Which semester is COMP3192 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"COMP3192 credits",
+        "patterns": ["How many credits does COMP3192 have?","COMP3192 credits","how many credits is COMP3192?"],
+        "responses": ["COMP3192 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP3192 duration",
+        "patterns": ["How long will COMP3192 last?","how long is COMP3192?","COMP3192 duration"],
+        "responses": ["COMP3192 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "COMP3220",
+        "patterns": ["what is COMP3220 about?","what is COMP3220?","COMP3220 aims"],
+        "responses": ["This  course  will  introduce  the  basic  principles  in  artificial  intelligence.  It  will  cover  a  brief  history  of  AI,  simple representation  schemes,  problem  solving  paradigms,  search  strategies,  and  research  and  philosophical  questions. Areas  of  application  to  be  covered  include  state  space  formulation,  knowledge  representation  and  inference, heuristics and specific AI problems such as computer vision, natural language and robotics."],
+        "context_set": ""       
+        },
+        {"tag":"COMP3220 prerequisite",
+        "patterns": ["what do i have to do before COMP3220?","what are COMP3220 prerequisites?","what courses are required to do COMP3220?", "COMP3220 prerequisites","what are the prerequisites for COMP3220?"],
+        "responses": ["COMP2201 - Discrete Mathematics for Computer Science and COMP2211- Analysis of Algorithms."],
+        "context_set": ""
+        },
+        {"tag":"COMP3220 Semester",
+        "patterns": ["Which semester is COMP3220 offered?","comp11267 semester"],
+        "responses": ["Semester I"],
+        "context_set": ""
+        },
+        {"tag":"COMP3220 credits",
+        "patterns": ["How many credits does COMP3220 have?","COMP3220 credits","how many credits is COMP3220?"],
+        "responses": ["COMP3220 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP3220 duration",
+        "patterns": ["How long will COMP3220 last?","how long is COMP3220?","COMP3220 duration"],
+        "responses": ["COMP3220 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "COMP3410",
+        "patterns": ["what is COMP3410 about?","what is COMP3410?","COMP3410 aims"],
+        "responses": ["This  course  will  introduce  students to Basic techniques of parallel computers, parallel hardware and software, message-passing computing, partitioning and divide-and-conquer strategies, sorting algorithms and numerical algorithms."],
+        "context_set": ""       
+        },
+        {"tag":"COMP3410 prerequisite",
+        "patterns": ["what do i have to do before COMP3410?","what are COMP3410 prerequisites?","what courses are required to do COMP3410?", "COMP3410 prerequisites","what are the prerequisites for COMP3410?"],
+        "responses": ["COMP2201 - Discrete Mathematics for Computer Science, COMP2211- Analysis of Algorithms and COMP2340 - Computer Systems Organization."],
+        "context_set": ""
+        },
+        {"tag":"COMP3410 Semester",
+        "patterns": ["Which semester is COMP3410 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"COMP3410 credits",
+        "patterns": ["How many credits does COMP3410 have?","COMP3410 credits","how many credits is COMP3410?"],
+        "responses": ["COMP3410 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP3410 duration",
+        "patterns": ["How long will COMP3410 last?","how long is COMP3410?","COMP3410 duration"],
+        "responses": ["COMP3410 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "COMP3606",
+        "patterns": ["what is COMP3606 about?","what is COMP3606?","COMP3606 aims"],
+        "responses": ["This  course  will  introduce  students to wireless and mobile network theory, current wireless programming languages, android, creating applications and activities, building user interfaces, intents and broadcast receivers, files, saving state and preferences, savingstate and preferences with applications, maps and location-based services, SMS and emerging technologies."],
+        "context_set": ""       
+        },
+        {"tag":"COMP3606 prerequisite",
+        "patterns": ["what do i have to do before COMP3606?","what are COMP3606 prerequisites?","what courses are required to do COMP3606?", "COMP3606 prerequisites","what are the prerequisites for COMP3606?"],
+        "responses": ["COMP2602 - Enterprise Database Systems (St. Augustine Campus)"],
+        "context_set": ""
+        },
+        {"tag":"COMP3606 Semester",
+        "patterns": ["Which semester is COMP3606 offered?","comp11267 semester"],
+        "responses": ["Semester I"],
+        "context_set": ""
+        },
+        {"tag":"COMP3606 credits",
+        "patterns": ["How many credits does COMP3606 have?","COMP3606 credits","how many credits is COMP3606?"],
+        "responses": ["COMP3606 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP3606 duration",
+        "patterns": ["How long will COMP3606 last?","how long is COMP3606?","COMP3606 duration"],
+        "responses": ["COMP3606 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "COMP3652",
+        "patterns": ["what is COMP3652 about?","what is COMP3652?","COMP3652 aims"],
+        "responses": ["This  course  will  introduce  students to syntactic processing, semantic representation and processing and features of programming languages."],
+        "context_set": ""       
+        },
+        {"tag":"COMP3652 prerequisite",
+        "patterns": ["what do i have to do before COMP3652?","what are COMP3652 prerequisites?","what courses are required to do COMP3652?", "COMP3652 prerequisites","what are the prerequisites for COMP3652?"],
+        "responses": ["COMP2211 - Analysis of Algorithms."],
+        "context_set": ""
+        },
+        {"tag":"COMP3652 Semester",
+        "patterns": ["Which semester is COMP3652 offered?","comp11267 semester"],
+        "responses": ["Semester I"],
+        "context_set": ""
+        },
+        {"tag":"COMP3652 credits",
+        "patterns": ["How many credits does COMP3652 have?","COMP3652 credits","how many credits is COMP3652?"],
+        "responses": ["COMP3652 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP3652 duration",
+        "patterns": ["How long will COMP3652 last?","how long is COMP3652?","COMP3652 duration"],
+        "responses": ["COMP3652 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "COMP3702",
+        "patterns": ["what is COMP3702 about?","what is COMP3702?","COMP3702 aims"],
+        "responses": ["This  course  will  introduce  students to Theories of Computation such the computability theory and the complexity theory"],
+        "context_set": ""       
+        },
+        {"tag":"COMP3702 prerequisite",
+        "patterns": ["what do i have to do before COMP3702?","what are COMP3702 prerequisites?","what courses are required to do COMP3702?", "COMP3702 prerequisites","what are the prerequisites for COMP3702?"],
+        "responses": ["COMP2201- Discrete Mathematics for Computer Science."],
+        "context_set": ""
+        },
+        {"tag":"COMP3702 Semester",
+        "patterns": ["Which semester is COMP3702 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"COMP3702 credits",
+        "patterns": ["How many credits does COMP3702 have?","COMP3702 credits","how many credits is COMP3702?"],
+        "responses": ["COMP3702 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP3702 duration",
+        "patterns": ["How long will COMP3702 last?","how long is COMP3702?","COMP3702 duration"],
+        "responses": ["COMP3702 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "COMP3801",
+        "patterns": ["what is COMP3801 about?","what is COMP3801?","COMP3801 aims"],
+        "responses": ["This  course  will  introduce  students to sensors, actuators and electrical components, state, control and feedback, embedded design, real time operating systems, robotics and multi-platform programming."],
+        "context_set": ""       
+        },
+        {"tag":"COMP3801 prerequisite",
+        "patterns": ["what do i have to do before COMP3801?","what are COMP3801 prerequisites?","what courses are required to do COMP3801?", "COMP3801 prerequisites","what are the prerequisites for COMP3801?"],
+        "responses": ["COMP2140 - Software Engineering and COMP2340 - Computer Systems Organisation."],
+        "context_set": ""
+        },
+        {"tag":"COMP3801 Semester",
+        "patterns": ["Which semester is COMP3801 offered?","comp11267 semester"],
+        "responses": ["Semester I"],
+        "context_set": ""
+        },
+        {"tag":"COMP3801 credits",
+        "patterns": ["How many credits does COMP3801 have?","COMP3801 credits","how many credits is COMP3801?"],
+        "responses": ["COMP3801 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP3801 duration",
+        "patterns": ["How long will COMP3801 last?","how long is COMP3801?","COMP3801 duration"],
+        "responses": ["COMP3801 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "COMP3802",
+        "patterns": ["what is COMP3802 about?","what is COMP3802?","COMP3802 aims"],
+        "responses": ["This  course  will  introduce  students to speach technology, speech signal processing, probability theory for speech processing, models and deep neural networks for speech processing, acoustic modeling, language modeling, approaches to decoding, model adaptation, speech recognition examples, speakker indentification technologies and speech synthesis."],
+        "context_set": ""       
+        },
+        {"tag":"COMP3802 prerequisite",
+        "patterns": ["what do i have to do before COMP3802?","what are COMP3802 prerequisites?","what courses are required to do COMP3802?", "COMP3802 prerequisites","what are the prerequisites for COMP3802?"],
+        "responses": ["COMP2802 - Speech Processing or ELET2210 - Speech Processing."],
+        "context_set": ""
+        },
+        {"tag":"COMP3802 Semester",
+        "patterns": ["Which semester is COMP3802 offered?","comp11267 semester"],
+        "responses": ["Semester I"],
+        "context_set": ""
+        },
+        {"tag":"COMP3802 credits",
+        "patterns": ["How many credits does COMP3802 have?","COMP3802 credits","how many credits is COMP3802?"],
+        "responses": ["COMP3802 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP3802 duration",
+        "patterns": ["How long will COMP3802 last?","how long is COMP3802?","COMP3802 duration"],
+        "responses": ["COMP3802 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "COMP3901",
+        "patterns": ["what is COMP3901 about?","what is COMP3901?","COMP3901 aims"],
+        "responses": ["In this course students will develop a significant software or hardware project in groups of 2 to 4 students. Students may define a project in any area related to Computer Science, and may choose any platform on which to develop, provided that the computational tasks to be undertaken would be the subject matter of a curriculum or research project at the undergraduate level or higher."],
+        "context_set": ""       
+        },
+        {"tag":"COMP3901 prerequisite",
+        "patterns": ["what do i have to do before COMP3901?","what are COMP3901 prerequisites?","what courses are required to do COMP3901?", "COMP3901 prerequisites","what are the prerequisites for COMP3901?"],
+        "responses": ["COMP2140 - Software Engineering, COMP2211 - Analysis of Algorithms and any 6 credits of Level 2 or 3 Computing code courses."],
+        "context_set": ""
+        },
+        {"tag":"COMP3901 Semester",
+        "patterns": ["Which semester is COMP3901 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"COMP3901 credits",
+        "patterns": ["How many credits does COMP3901 have?","COMP3901 credits","how many credits is COMP3901?"],
+        "responses": ["COMP3901 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP3901 duration",
+        "patterns": ["How long will COMP3901 last?","how long is COMP3901?","COMP3901 duration"],
+        "responses": ["COMP3901 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "COMP3911",
+        "patterns": ["what is COMP3911 about?","what is COMP3911?","COMP3911 aims"],
+        "responses": ["This internship course will provide students an opportunity to develop a professional understanding of computing so that they are prepared for employment. During this course students will develop the ability to apply the concepts learned in the classroom in an actual working situation and discover the value of work and the rewards of accomplishment. The course also provides an opportunity for students to develop positive work habits, to test aptitude for or interest in a selected field and ensures a natural transition to the highest level of professional preparation as a complement to the education/training goals of the department."],
+        "context_set": ""       
+        },
+        {"tag":"COMP3911 prerequisite",
+        "patterns": ["what do i have to do before COMP3911?","what are COMP3911 prerequisites?","what courses are required to do COMP3911?", "COMP3911 prerequisites","what are the prerequisites for COMP3911?"],
+        "responses": ["Permission of the Head of Department."],
+        "context_set": ""
+        },
+        {"tag":"COMP3911 Semester",
+        "patterns": ["Which semester is COMP3911 offered?","comp11267 semester"],
+        "responses": ["Semester I, II AND Summer term"],
+        "context_set": ""
+        },
+        {"tag":"COMP3911 credits",
+        "patterns": ["How many credits does COMP3911 have?","COMP3911 credits","how many credits is COMP3911?"],
+        "responses": ["COMP3911 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP3911 duration",
+        "patterns": ["How long will COMP3911 last?","how long is COMP3911?","COMP3911 duration"],
+        "responses": ["COMP3911 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "COMP3912",
+        "patterns": ["what is COMP3912 about?","what is COMP3912?","COMP3912 aims"],
+        "responses": ["This internship course will provide students an opportunity to develop a professional understanding of computing so that they are prepared for employment. During this course students will develop the ability to apply the concepts learned in the classroom in an actual working situation and discover the value of work and the rewards of accomplishment. The course also provides an opportunity for students to develop positive work habits, to test aptitude for or interest in a selected field and ensures a natural transition to the highest level of professional preparation as a complement to the education/training goals of the department."],
+        "context_set": ""       
+        },
+        {"tag":"COMP3912 prerequisite",
+        "patterns": ["what do i have to do before COMP3912?","what are COMP3912 prerequisites?","what courses are required to do COMP3912?", "COMP3912 prerequisites","what are the prerequisites for COMP3912?"],
+        "responses": ["Permission of the Head of Department."],
+        "context_set": ""
+        },
+        {"tag":"COMP3912 Semester",
+        "patterns": ["Which semester is COMP3912 offered?","comp11267 semester"],
+        "responses": ["Semester I, II AND Summer term"],
+        "context_set": ""
+        },
+        {"tag":"COMP3912 credits",
+        "patterns": ["How many credits does COMP3912 have?","COMP3912 credits","how many credits is COMP3912?"],
+        "responses": ["COMP3912 is 6 credits."],
+        "context_set": ""
+        },
+        {"tag":"COMP3912 duration",
+        "patterns": ["How long will COMP3912 last?","how long is COMP3912?","COMP3912 duration"],
+        "responses": ["COMP3912 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "INFO3105",
+        "patterns": ["what is INFO3105 about?","what is INFO3105?","INFO3105 aims"],
+        "responses": ["This course covers the techniques that are used for the installation, configuration, and maintenance of computer hardware, software, and network infrastructure. The course presents the basic theoretical concepts of computer networks and operating systems in a little less detail than would be the case for specialist courses on these subjects."],
+        "context_set": ""       
+        },
+        {"tag":"INFO3105 prerequisite",
+        "patterns": ["what do i have to do before INFO3105?","what are INFO3105 prerequisites?","what courses are required to do INFO3105?", "INFO3105 prerequisites","what are the prerequisites for INFO3105?"],
+        "responses": ["COMP2340 - Computer Systems Organization and COMP2190 - Net-Centric Computing."],
+        "context_set": ""
+        },
+        {"tag":"INFO3105 Semester",
+        "patterns": ["Which semester is INFO3105 offered?","comp11267 semester"],
+        "responses": ["Semester I"],
+        "context_set": ""
+        },
+        {"tag":"INFO3105 credits",
+        "patterns": ["How many credits does INFO3105 have?","INFO3105 credits","how many credits is INFO3105?"],
+        "responses": ["INFO3105 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"INFO3105 duration",
+        "patterns": ["How long will INFO3105 last?","how long is INFO3105?","INFO3105 duration"],
+        "responses": ["INFO3105 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "INFO3110",
+        "patterns": ["what is INFO3110 about?","what is INFO3110?","INFO3110 aims"],
+        "responses": ["This course introduces students to the challenges that are faced by organizations as they attempt to use information technology to create competitive businesses that provide useful goods and services to their customers. It presents an overview of an organization, organizational characteristics, and basic theories of organizational behavior. It introduces the issues surrounding the management of information systems in organizations."],
+        "context_set": ""       
+        },
+        {"tag":"INFO3110 prerequisite",
+        "patterns": ["what do i have to do before INFO3110?","what are INFO3110 prerequisites?","what courses are required to do INFO3110?", "INFO3110 prerequisites","what are the prerequisites for INFO3110?"],
+        "responses": ["COMP2140 - Software Engineering and COMP2190 - Net-Centric Computing."],
+        "context_set": ""
+        },
+        {"tag":"INFO3110 Semester",
+        "patterns": ["Which semester is INFO3110 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"INFO3110 credits",
+        "patterns": ["How many credits does INFO3110 have?","INFO3110 credits","how many credits is INFO3110?"],
+        "responses": ["INFO3110 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"INFO3110 duration",
+        "patterns": ["How long will INFO3110 last?","how long is INFO3110?","INFO3110 duration"],
+        "responses": ["INFO3110 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "INFO3155",
+        "patterns": ["what is INFO3155 about?","what is INFO3155?","INFO3155 aims"],
+        "responses": ["This course explores the security issues that every IT professional must be aware of. The course will inform the student on the various attack surfaces and defensive approaches that must be considered during all phases of life of an organisation's information technology assets. The course will also provide an opportunity for students to gain hands-on experience with the tools needed to protect an organisation from the various forms of attack it can be subjected to."],
+        "context_set": ""       
+        },
+        {"tag":"INFO3155 prerequisite",
+        "patterns": ["what do i have to do before INFO3155?","what are INFO3155 prerequisites?","what courses are required to do INFO3155?", "INFO3155 prerequisites","what are the prerequisites for INFO3155?"],
+        "responses": ["COMP2190 - Net-Centric Computing and INFO2100 - Mathematics and Statistics for IT or COMP2201 - Discrete Mathematics for Computer Science."],
+        "context_set": ""
+        },
+        {"tag":"INFO3155 Semester",
+        "patterns": ["Which semester is INFO3155 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"INFO3155 credits",
+        "patterns": ["How many credits does INFO3155 have?","INFO3155 credits","how many credits is INFO3155?"],
+        "responses": ["INFO3155 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"INFO3155 duration",
+        "patterns": ["How long will INFO3155 last?","how long is INFO3155?","INFO3155 duration"],
+        "responses": ["INFO3155 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "INFO3170",
+        "patterns": ["what is INFO3170 about?","what is INFO3170?","INFO3170 aims"],
+        "responses": ["This course introduces students to issues in the design, development, and evaluation of user interfaces for computer systems. Concepts in human factors, usability, and interface design will be covered, and the effects of human capabilities and limitations on interaction with computer systems will be studied. Students will apply the concepts to the design and implementation of graphical user interfaces."],
+        "context_set": ""       
+        },
+        {"tag":"INFO3170 prerequisite",
+        "patterns": ["what do i have to do before INFO3170?","what are INFO3170 prerequisites?","what courses are required to do INFO3170?", "INFO3170 prerequisites","what are the prerequisites for INFO3170?"],
+        "responses": ["COMP2140 - Software Engineer or INFO2180 - Dynamic Web Development I."],
+        "context_set": ""
+        },
+        {"tag":"INFO3170 Semester",
+        "patterns": ["Which semester is INFO3170 offered?","comp11267 semester"],
+        "responses": ["Semester I"],
+        "context_set": ""
+        },
+        {"tag":"INFO3170 credits",
+        "patterns": ["How many credits does INFO3170 have?","INFO3170 credits","how many credits is INFO3170?"],
+        "responses": ["INFO3170 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"INFO3170 duration",
+        "patterns": ["How long will INFO3170 last?","how long is INFO3170?","INFO3170 duration"],
+        "responses": ["INFO3170 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "INFO3180",
+        "patterns": ["what is INFO3180 about?","what is INFO3180?","INFO3180 aims"],
+        "responses": ["This course covers the technologies that enable the creation of interactive web applications that process and modify server-based data, at an intermediate level. It continues from Web Design and Programming I, covering many of the same topics in more depth. This includes further coverage of topics in networking technologies, data representation for the web, web UI design and site design, client-server architecture and client-side and server-side programming. It covers relevant topics in e-commerce, web security, ethical and social issues, and engineering concepts such as the three-tier architecture and frameworks for the web."],
+        "context_set": ""       
+        },
+        {"tag":"INFO3180 prerequisite",
+        "patterns": ["what do i have to do before INFO3180?","what are INFO3180 prerequisites?","what courses are required to do INFO3180?", "INFO3180 prerequisites","what are the prerequisites for INFO3180?"],
+        "responses": ["INFO2180 - Dynamic Web Development."],
+        "context_set": ""
+        },
+        {"tag":"INFO3180 Semester",
+        "patterns": ["Which semester is INFO3180 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"INFO3180 credits",
+        "patterns": ["How many credits does INFO3180 have?","INFO3180 credits","how many credits is INFO3180?"],
+        "responses": ["INFO3180 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"INFO3180 duration",
+        "patterns": ["How long will INFO3180 last?","how long is INFO3180?","INFO3180 duration"],
+        "responses": ["INFO3180 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "INFO3435",
+        "patterns": ["what is INFO3435 about?","what is INFO3435?","INFO3435 aims"],
+        "responses": ["This course will introduce students to eCommerce Business Models and Concepts; The Internet and World Wide Web; eCommerce Infrastructure; Building eCommerce Web Site; eCommerce Website Evaluation and Usability Testing (Personalization & Customization); Online Security and Payment Systems; Ecommerce Marketing Concepts Ecommerce Marketing Communications; Ethical, Social, and Political Issues in Ecommerce; Online Retailing and Services; Online Content and Media; Social Networks, Auctions, and Portals; B2B Ecommerce (Supply Chain Management and Collaborative Commerce)."],
+        "context_set": ""       
+        },
+        {"tag":"INFO3435 prerequisite",
+        "patterns": ["what do i have to do before INFO3435?","what are INFO3435 prerequisites?","what courses are required to do INFO3435?", "INFO3435 prerequisites","what are the prerequisites for INFO3435?"],
+        "responses": ["COMP2140 - Software Engineering and INFO2180 - Dynamic Web Development."],
+        "context_set": ""
+        },
+        {"tag":"INFO3435 Semester",
+        "patterns": ["Which semester is INFO3435 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"INFO3435 credits",
+        "patterns": ["How many credits does INFO3435 have?","INFO3435 credits","how many credits is INFO3435?"],
+        "responses": ["INFO3435 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"INFO3435 duration",
+        "patterns": ["How long will INFO3435 last?","how long is INFO3435?","INFO3435 duration"],
+        "responses": ["INFO3435 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "INFO3606",
+        "patterns": ["what is INFO3606 about?","what is INFO3606?","INFO3606 aims"],
+        "responses": ["This course provides the student with an understanding of virtualization and its role in both private and cloud technologies. The student will be able to manage virtualization technologies and management of private and public cloud technologies. The course will be delivered using a combination of lectures, case studies and various online resources. Assignments will take the form of written examinations, lab examinations, group projects and presentations."],
+        "context_set": ""       
+        },
+        {"tag":"INFO3606 prerequisite",
+        "patterns": ["what do i have to do before INFO3606?","what are INFO3606 prerequisites?","what courses are required to do INFO3606?", "INFO3606 prerequisites","what are the prerequisites for INFO3606?"],
+        "responses": ["COMP2605 - Enterprise Database Systems (St. Augustine Campus)"],
+        "context_set": ""
+        },
+        {"tag":"INFO3606 Semester",
+        "patterns": ["Which semester is INFO3606 offered?","comp11267 semester"],
+        "responses": ["Semester I"],
+        "context_set": ""
+        },
+        {"tag":"INFO3606 credits",
+        "patterns": ["How many credits does INFO3606 have?","INFO3606 credits","how many credits is INFO3606?"],
+        "responses": ["INFO3606 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"INFO3606 duration",
+        "patterns": ["How long will INFO3606 last?","how long is INFO3606?","INFO3606 duration"],
+        "responses": ["INFO3606 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "SWEN3000",
+        "patterns": ["what is SWEN3000 about?","what is SWEN3000?","SWEN3000 aims"],
+        "responses": ["This course will introduce students to development on MacOS's Xcode IDE, Swift, Xcode and interface builder, Cocoa design patterns, views and the view hierarchy, memory management, text input and delegation, view controllers, interaction with UI controls, UITableView and UITableViewController, orientation and iOS device sensors and testing and debugging."],
+        "context_set": ""       
+        },
+        {"tag":"SWEN3000 prerequisite",
+        "patterns": ["what do i have to do before SWEN3000?","what are SWEN3000 prerequisites?","what courses are required to do SWEN3000?", "SWEN3000 prerequisites","what are the prerequisites for SWEN3000?"],
+        "responses": ["COMP2171 - Object Oriented Design and Implementation"],
+        "context_set": ""
+        },
+        {"tag":"SWEN3000 Semester",
+        "patterns": ["Which semester is SWEN3000 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"SWEN3000 credits",
+        "patterns": ["How many credits does SWEN3000 have?","SWEN3000 credits","how many credits is SWEN3000?"],
+        "responses": ["SWEN3000 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"SWEN3000 duration",
+        "patterns": ["How long will SWEN3000 last?","how long is SWEN3000?","SWEN3000 duration"],
+        "responses": ["SWEN3000 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "SWEN3001",
+        "patterns": ["what is SWEN3001 about?","what is SWEN3001?","SWEN3001 aims"],
+        "responses": ["During this course students will be introduced to the development of mobile applications using the Android development platform.  Students having done Java, will now be introduced to Kotlin and be further grounded in Java with a specific Android Focus."],
+        "context_set": ""       
+        },
+        {"tag":"SWEN3001 prerequisite",
+        "patterns": ["what do i have to do before SWEN3001?","what are SWEN3001 prerequisites?","what courses are required to do SWEN3001?", "SWEN3001 prerequisites","what are the prerequisites for SWEN3001?"],
+        "responses": ["COMP2171 - Object Oriented Design and Implementation and COMP3161 - Introduction to Database Management Systems."],
+        "context_set": ""
+        },
+        {"tag":"SWEN3001 Semester",
+        "patterns": ["Which semester is SWEN3001 offered?","comp11267 semester"],
+        "responses": ["Semester I"],
+        "context_set": ""
+        },
+        {"tag":"SWEN3001 credits",
+        "patterns": ["How many credits does SWEN3001 have?","SWEN3001 credits","how many credits is SWEN3001?"],
+        "responses": ["SWEN3001 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"SWEN3001 duration",
+        "patterns": ["How long will SWEN3001 last?","how long is SWEN3001?","SWEN3001 duration"],
+        "responses": ["SWEN3001 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "SWEN3002",
+        "patterns": ["what is SWEN3002 about?","what is SWEN3002?","SWEN3002 aims"],
+        "responses": ["This course further expands on SWEN3001 - Android Application Development I. It will introduce students to android application components: activities, broadcast receivers, services, notification manager, mobile web application, best practices, asynchronous tasks, accessing remote services, aerver-aise concepts, client access to software agent systems, connectivity and testing strategies."],
+        "context_set": ""       
+        },
+        {"tag":"SWEN3002 prerequisite",
+        "patterns": ["what do i have to do before SWEN3002?","what are SWEN3002 prerequisites?","what courses are required to do SWEN3002?", "SWEN3002 prerequisites","what are the prerequisites for SWEN3002?"],
+        "responses": ["SWEN3001 - Android Application Development I"],
+        "context_set": ""
+        },
+        {"tag":"SWEN3002 Semester",
+        "patterns": ["Which semester is SWEN3002 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"SWEN3002 credits",
+        "patterns": ["How many credits does SWEN3002 have?","SWEN3002 credits","how many credits is SWEN3002?"],
+        "responses": ["SWEN3002 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"SWEN3002 duration",
+        "patterns": ["How long will SWEN3002 last?","how long is SWEN3002?","SWEN3002 duration"],
+        "responses": ["SWEN3002 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "SWEN3003",
+        "patterns": ["what is SWEN3003 about?","what is SWEN3003?","SWEN3003 aims"],
+        "responses": ["This course will introduce students to the web, web application architectures, interface design, server-side components, relational database manipulation, session management, scopes, scope attributes, request dispatching, java application client, design patterns and overview of frame works."],
+        "context_set": ""       
+        },
+        {"tag":"SWEN3003 prerequisite",
+        "patterns": ["what do i have to do before SWEN3003?","what are SWEN3003 prerequisites?","what courses are required to do SWEN3003?", "SWEN3003 prerequisites","what are the prerequisites for SWEN3003?"],
+        "responses": ["SWEN1005 - Mobile Web Programming and COMP2171 - Object Oriented Design and Implementation and COMP3161 - Introduction to Database Management Systems"],
+        "context_set": ""
+        },
+        {"tag":"SWEN3003 Semester",
+        "patterns": ["Which semester is SWEN3003 offered?","comp11267 semester"],
+        "responses": ["Semester I"],
+        "context_set": ""
+        },
+        {"tag":"SWEN3003 credits",
+        "patterns": ["How many credits does SWEN3003 have?","SWEN3003 credits","how many credits is SWEN3003?"],
+        "responses": ["SWEN3003 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"SWEN3003 duration",
+        "patterns": ["How long will SWEN3003 last?","how long is SWEN3003?","SWEN3003 duration"],
+        "responses": ["SWEN3003 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "SWEN3004",
+        "patterns": ["what is SWEN3004 about?","what is SWEN3004?","SWEN3004 aims"],
+        "responses": ["This course further expands on SWEN3003 - Web and Mobile Application Development I. It will introduce students to the android platform and developint environment, mobile application design, interface design, android software stack, android application lifecycle, activities and intents, services, broadcast receivers, content providers, SQLite database, On-phone resources and business application development."],
+        "context_set": ""       
+        },
+        {"tag":"SWEN3004 prerequisite",
+        "patterns": ["what do i have to do before SWEN3004?","what are SWEN3004 prerequisites?","what courses are required to do SWEN3004?", "SWEN3004 prerequisites","what are the prerequisites for SWEN3004?"],
+        "responses": ["SWEN3003 - Web & Mobile Application Development I"],
+        "context_set": ""
+        },
+        {"tag":"SWEN3004 Semester",
+        "patterns": ["Which semester is SWEN3004 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"SWEN3004 credits",
+        "patterns": ["How many credits does SWEN3004 have?","SWEN3004 credits","how many credits is SWEN3004?"],
+        "responses": ["SWEN3004 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"SWEN3004 duration",
+        "patterns": ["How long will SWEN3004 last?","how long is SWEN3004?","SWEN3004 duration"],
+        "responses": ["SWEN3004 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "SWEN3120",
+        "patterns": ["what is SWEN3120 about?","what is SWEN3120?","SWEN3120 aims"],
+        "responses": ["This course will introduce students to Software architecture concepts, architecture design and analysis, architectural documentation and evaluating software architecture."],
+        "context_set": ""       
+        },
+        {"tag":"SWEN3120 prerequisite",
+        "patterns": ["what do i have to do before SWEN3120?","what are SWEN3120 prerequisites?","what courses are required to do SWEN3120?", "SWEN3120 prerequisites","what are the prerequisites for SWEN3120?"],
+        "responses": ["COMP2140 - Software Engineering and COMP2171 - Object-Oriented Design and Implementation and SWEN2165 - Requirements Engineering"],
+        "context_set": ""
+        },
+        {"tag":"SWEN3120 Semester",
+        "patterns": ["Which semester is SWEN3120 offered?","comp11267 semester"],
+        "responses": ["Semester I"],
+        "context_set": ""
+        },
+        {"tag":"SWEN3120 credits",
+        "patterns": ["How many credits does SWEN3120 have?","SWEN3120 credits","how many credits is SWEN3120?"],
+        "responses": ["SWEN3120 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"SWEN3120 duration",
+        "patterns": ["How long will SWEN3120 last?","how long is SWEN3120?","SWEN3120 duration"],
+        "responses": ["SWEN3120 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "SWEN3130",
+        "patterns": ["what is SWEN3130 about?","what is SWEN3130?","SWEN3130 aims"],
+        "responses": ["This course will introduce students to the role of risk in the software life cycle, working in teams and project management."],
+        "context_set": ""       
+        },
+        {"tag":"SWEN3130 prerequisite",
+        "patterns": ["what do i have to do before SWEN3130?","what are SWEN3130 prerequisites?","what courses are required to do SWEN3130?", "SWEN3130 prerequisites","what are the prerequisites for SWEN3130?"],
+        "responses": ["COMP2140 - Software Engineering"],
+        "context_set": ""
+        },
+        {"tag":"SWEN3130 Semester",
+        "patterns": ["Which semester is SWEN3130 offered?","comp11267 semester"],
+        "responses": ["Semester I"],
+        "context_set": ""
+        },
+        {"tag":"SWEN3130 credits",
+        "patterns": ["How many credits does SWEN3130 have?","SWEN3130 credits","how many credits is SWEN3130?"],
+        "responses": ["SWEN3130 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"SWEN3130 duration",
+        "patterns": ["How long will SWEN3130 last?","how long is SWEN3130?","SWEN3130 duration"],
+        "responses": ["SWEN3130 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "SWEN3145",
+        "patterns": ["what is SWEN3145 about?","what is SWEN3145?","SWEN3145 aims"],
+        "responses": ["This course will introduce students to Requirements Specification Document Development (Precisely Expressing Requirements); Information Modelling (Entity-Relationship Modelling, Class Diagrams); Behavioural Modelling (Structured Analysis, State Diagrams, Use Case Analysis, Interaction Diagrams, Failure Modes and Effects Analysis); Structure Modelling (Architectural); Domain Modelling (Domain Engineering Approaches); Functional Modelling (Component Diagrams)."],
+        "context_set": ""       
+        },
+        {"tag":"SWEN3145 prerequisite",
+        "patterns": ["what do i have to do before SWEN3145?","what are SWEN3145 prerequisites?","what courses are required to do SWEN3145?", "SWEN3145 prerequisites","what are the prerequisites for SWEN3145?"],
+        "responses": ["COMP2140 - Software Engineering and COMP2171 - Object Oriented Design and Implementation."],
+        "context_set": ""
+        },
+        {"tag":"SWEN3145 Semester",
+        "patterns": ["Which semester is SWEN3145 offered?","comp11267 semester"],
+        "responses": ["Semester I"],
+        "context_set": ""
+        },
+        {"tag":"SWEN3145 credits",
+        "patterns": ["How many credits does SWEN3145 have?","SWEN3145 credits","how many credits is SWEN3145?"],
+        "responses": ["SWEN3145 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"SWEN3145 duration",
+        "patterns": ["How long will SWEN3145 last?","how long is SWEN3145?","SWEN3145 duration"],
+        "responses": ["SWEN3145 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "SWEN3165",
+        "patterns": ["what is SWEN3165 about?","what is SWEN3165?","SWEN3165 aims"],
+        "responses": ["This course will introduce students to Managing the Testing Process, Testing Principles and Techniques (Unit, Integration, Systems, Acceptance; Testing Types (State Based, Regression, Configuration, Compatibility, Alpha, Beta, and Acceptance); Test Driven Development; Test Plan Development; Reporting, Tracking, and Analysis of Problems encountered during Development."],
+        "context_set": ""       
+        },
+        {"tag":"SWEN3165 prerequisite",
+        "patterns": ["what do i have to do before SWEN3165?","what are SWEN3165 prerequisites?","what courses are required to do SWEN3165?", "SWEN3165 prerequisites","what are the prerequisites for SWEN3165?"],
+        "responses": ["COMP2140 - Software Engineering and COMP2171 - Object Oriented Design and Implementation."],
+        "context_set": ""
+        },
+        {"tag":"SWEN3165 Semester",
+        "patterns": ["Which semester is SWEN3165 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"SWEN3165 credits",
+        "patterns": ["How many credits does SWEN3165 have?","SWEN3165 credits","how many credits is SWEN3165?"],
+        "responses": ["SWEN3165 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"SWEN3165 duration",
+        "patterns": ["How long will SWEN3165 last?","how long is SWEN3165?","SWEN3165 duration"],
+        "responses": ["SWEN3165 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "SWEN3185",
+        "patterns": ["what is SWEN3185 about?","what is SWEN3185?","SWEN3185 aims"],
+        "responses": ["This course will introduce students to the Role of Formal Specification and Analysis Techniques in the Software  Development Cycle; Software Reliability Engineering Concepts and Practices; Software Reliability Models; Introduction to Mathematical Models and Specification Languages (Alloy, Z, VDM); Pre and Post Conditions, Invariants; Formal Approaches to Software Modelling and Analysis (Model Checkers, Model Finders); Tools in Support of Formal Methods."],
+        "context_set": ""       
+        },
+        {"tag":"SWEN3185 prerequisite",
+        "patterns": ["what do i have to do before SWEN3185?","what are SWEN3185 prerequisites?","what courses are required to do SWEN3185?", "SWEN3185 prerequisites","what are the prerequisites for SWEN3185?"],
+        "responses": ["COMP2201 - Discrete Mathematics for Computer Science."],
+        "context_set": ""
+        },
+        {"tag":"SWEN3185 Semester",
+        "patterns": ["Which semester is SWEN3185 offered?","comp11267 semester"],
+        "responses": ["Semester II"],
+        "context_set": ""
+        },
+        {"tag":"SWEN3185 credits",
+        "patterns": ["How many credits does SWEN3185 have?","SWEN3185 credits","how many credits is SWEN3185?"],
+        "responses": ["SWEN3185 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"SWEN3185 duration",
+        "patterns": ["How long will SWEN3185 last?","how long is SWEN3185?","SWEN3185 duration"],
+        "responses": ["SWEN3185 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "SWEN3920",
+        "patterns": ["what is SWEN3920 about?","what is SWEN3920?","SWEN3920 aims"],
+        "responses": ["This course is the required group project course for all students majoring in software engineering. It is intended to be a capstone course that will bring together many of the topics that were covered in the rest of the curriculum. For this reason, students will be expected to take this course in their final year, for a period of six months beginning in semester two and ending in semester three. The project must encompass all matters relating to the software engineering process: requirements, design, coding, working in teams and project management."],
+        "context_set": ""       
+        },
+        {"tag":"SWEN3920 prerequisite",
+        "patterns": ["what do i have to do before SWEN3920?","what are SWEN3920 prerequisites?","what courses are required to do SWEN3920?", "SWEN3920 prerequisites","what are the prerequisites for SWEN3920?"],
+        "responses": ["COMP2140 - Software Engineering, SWEN3130 - Software Project Management and SWEN3145 - Software Modelling. This course has co-requisites with SWEN3165 - Software Testing AND SWEN3185 - Formal Methods and Software Reliability."],
+        "context_set": ""
+        },
+        {"tag":"SWEN3920 Semester",
+        "patterns": ["Which semester is SWEN3920 offered?","comp11267 semester"],
+        "responses": ["Semester I, II and III"],
+        "context_set": ""
+        },
+        {"tag":"SWEN3920 credits",
+        "patterns": ["How many credits does SWEN3920 have?","SWEN3920 credits","how many credits is SWEN3920?"],
+        "responses": ["SWEN3920 is 6 credits."],
+        "context_set": ""
+        },
+        {"tag":"SWEN3920 duration",
+        "patterns": ["How long will SWEN3920 last?","how long is SWEN3920?","SWEN3920 duration"],
+        "responses": ["SWEN3920 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag": "SWEN4002",
+        "patterns": ["what is SWEN4002 about?","what is SWEN4002?","SWEN4002 aims"],
+        "responses": ["The course content will depend upon the specific certification/course pursued."],
+        "context_set": ""       
+        },
+        {"tag":"SWEN4002 prerequisite",
+        "patterns": ["what do i have to do before SWEN4002?","what are SWEN4002 prerequisites?","what courses are required to do SWEN4002?", "SWEN4002 prerequisites","what are the prerequisites for SWEN4002?"],
+        "responses": ["There are no prerequisites for this course."],
+        "context_set": ""
+        },
+        {"tag":"SWEN4002 Semester",
+        "patterns": ["Which semester is SWEN4002 offered?","comp11267 semester"],
+        "responses": ["Semester I"],
+        "context_set": ""
+        },
+        {"tag":"SWEN4002 credits",
+        "patterns": ["How many credits does SWEN4002 have?","SWEN4002 credits","how many credits is SWEN4002?"],
+        "responses": ["SWEN4002 is 3 credits."],
+        "context_set": ""
+        },
+        {"tag":"SWEN4002 duration",
+        "patterns": ["How long will SWEN4002 last?","how long is SWEN4002?","SWEN4002 duration"],
+        "responses": ["SWEN4002 will last for the entire semester."],
+        "context_s": ""
+        },
+        {"tag":"Computer Science Core Courses",
+        "patterns": ["What are the core course for Computer Science?", "Tell me about the core courses for Computer Science", "Core Courses for Computer Science"],
+        "responses": ["The core courses for Computer Science includes; COMP1210 - Mathematics for Computing, COMP1220 - Computing and Society, COMP1126 - Introduction to Computing I, COMP1127 - Introduction to Computing II, COMP1161 - Object Oriented Programming, COMP2140 - Software Engineering, COMP2171 - Object Oriented Design and Implementation, COMP2190 - Net-Centric Computing, COMP2201 - Discrete Mathemathetics for Computer Science, COMP2211 - Analysis of Algorithms, COMP2340 - Computer Systems Organization, COMP3101 - Operating Systems, COMP3161 - Introduction to Database Management Systems, COMP3220 - Principles of Artificial Intelligience, COMP3901 - Capstone Project."],
+        "context_s": ""
+        },
+        {"tag":"Information Technology Core Courses",
+        "patterns": ["What are the core course for Information Technology?", "Tell me about the core courses for Information Technology", "Core Courses for Information Technology"],
+        "responses": ["The core courses for Information Technology includes; COMP1210 - Mathematics for Computing, COMP1220 - Computing and Society, COMP1126 - Introduction to Computing I, COMP1127 - Introduction to Computing II, COMP1161 - Object Oriented Programming, COMP2140 - Software Engineering, COMP2190 - Net-Centric Computing, COMP2340 - Computer Systems Organization, INFO2100 - Mathematics and Statistics for IT, INFO2110 - Data Structures for IT, INFO2180 - Web Development and Programming I, INFO3105 - Computer Systems and Administration, INFO3110 - Information Systems,  INFO3155 -Information Assurance and Security, INFO3170 - User Interface Design for IT, INFO3180 - Dynamic Web Development II, COMP3161 - Introduction to Database Management Systems, COMP3901 - Capstone Project."],
+        "context_s": ""
+        },
+        {"tag":"Software Engineering Core Courses",
+        "patterns": ["What are the core course for Software Engineering?", "Tell me about the core courses for Software Engineering", "Core Courses for Software Engineering"],
+        "responses": ["The core courses for Software Engineering includes; COMP1210 - Mathematics for Computing, COMP1220 - Computing and Society, COMP1126 - Introduction to Computing I, COMP1127 - Introduction to Computing II, COMP1161 - Object Oriented Programming, COMP2140 - Software Engineering, COMP2171 - Object Oriented Design and Implementation, COMP2190 - Net-Centric Computing, COMP2201 - Discrete Mathemathetics for Computer Science, COMP2211 - Analysis of Algorithms, COMP2340 - Computer Systems Organization, COMP3911 - Internship in Computing, SWEN3130 - Software Project Management, SWEN3145 - Softwarre Modelling, SWEN3165 - Software Testing, SWEN3185 - Formal Methods and Software Reliability, COMP3920 - Capstone Project."],
+        "context_s": ""
+        },
+        {"tag":"course hard",
+        "patterns": ["is this course hard?", "which courses are hard?", "is it hard"],
+        "responses": ["No course is hard! :)"],
+        "context_s": ""
+        },
+        {"tag":"Gratitude",
+        "patterns": ["Thank you!", "Thanks", "I appreciate it!"],
+        "responses": ["You're Welcome", "No Problemo", "Happy to help"],
+        "context_s": ""
+        },
+        {"tag":"creator",
+        "patterns": ["Who is your creator?", "Who created you?"],
+        "responses": ["I was created by a Patrece, Michel, Kadian and Kabian, a group of Computer Science finalizing students. Their group goes by the name of NexTech Solutions."],
+        "context_s": ""
+        },
+        {"tag":"easy course",
+        "patterns": ["Which courses are the easiest?", "Are there any easy course?"],
+        "responses": ["All courses are easy once you attend classes, practices and study!"],
+        "context_s": ""
+        },
+        {"tag":"best lecturer",
+        "patterns": ["Who is the best lecturer?", "Who is your favourite lecturer?"],
+        "responses": ["Dr.Kevin Miller of course!", "Dr. Gunjan Mansingh of course!", "Dr. Beckford", "Dr. Coore", "Dr. Yannick Lynfatt", "I am not at liberty to answer that question. I could get fired! Lol."],
+        "context_s": ""
+        },
+        {"tag":"friend",
+        "patterns": ["Do you have any friends?", "Who is you friend?"],
+        "responses": ["You are my friend! :)", "My creators are my friends!"],
+        "context_s": ""
+        },
+        {"tag":"joke",
+        "patterns": ["Tell me a joke", "Do you know any jokes?"],
+        "responses": ["Why do we tell actors to break a leg?.... Because every play has a cast", "I invented a new word!... Plagiarism!","Why do scientists trust atoms?...Because they make up everything.", "Where are average things manufactured?... The satisFACTORY!","A man tells his doctor, 'Doc, help me. I'm addicted to Twitter!'... The doctor replies, 'Sorry, I don't follow you.'", "What did the left eye say to the right eye?... Between you and me something smells!", "What do you call a fake noodle?... An impasta!", "Why did the frog take the bus to work today?... His car got toad away."],
+        "context_s": ""
+        },
+        {"tag":"weather",
+        "patterns": ["What is the weather today?", "today's weather"],
+        "responses": ["I don't know. I'm not a meterologist.", "I can't tell my barometer is not working today. :("],
+        "context_s": ""
+        },
+        {"tag":"Head of Department",
+        "patterns": ["Who is the head of computing department?", "head of department"],
+        "responses": ["The head of the computing department is Dr. Gunjan Mansingh."],
+        "context_s": ""
+        },
+        {"tag":"Head of department email address",
+        "patterns": ["What is the head of department email address", "Email address for the head of department"],
+        "responses": ["gunjan.mansingh@uwimona.edu.jm"],
+        "context_s": ""
+        },
+        {"tag":"About the Head of department",
+        "patterns": ["Tell me about the head of the computing department", "Tell me about Dr. Gunjan Mansingh"],
+        "responses": ["Gunjan Mansingh is head of the department and a Senior Lecturer at the Department of Computing, the University of the West Indies (U.W.I), Mona, Jamaica. She obtained a PhD. in Information Systems and an M.Phil. in Computer Science from U.W.I. and a B.Sc. from St Xavier’s College, Bombay University, India. She worked for a few years in the IT industry in Jamaica before moving to academia. She teaches various courses at the undergraduate and the graduate level in Computer Science and Information Systems."],
+        "context_s": ""
+        },
+        {"tag":"Science and Technology Representative",
+        "patterns": ["who is the scitech rep?", "Who is the student representative for Science and Technology"],
+        "responses": ["The Science and Technology student Representative is Tyreke Mclean."],
+        "context_s": ""
+        },
+        {"tag":"Department of Computing Representative",
+        "patterns": ["who is the computing rep?", "Who is the student representative for the department of computing?"],
+        "responses": ["The Computing Department student Representative is Tariq Kelly."],
+        "context_s": ""
+        },
+        {"tag":"prerequisite courses",
+        "patterns": ["What are pre-requisite courses"],
+        "responses": ["Pre-requisite are courses or qualifications required for a student to be enrolled in a particular course"],
+        "context_s": ""
+        },
+        {"tag":"antirequisites courses",
+        "patterns": ["What are anti-requisite courses"],
+        "responses": ["Anti-requisites are courses that overlap sufficiently in course content that both cannot be taken for credits."],
+        "context_s": ""
+        },
+        {"tag":"prerequisites courses",
+        "patterns": ["What are pre-requisite courses"],
+        "responses": ["Pre-requisite are courses or qualifications required for a student to be enrolled in a particular course"],
+        "context_s": ""
+        },
+        {"tag":"grading scale",
+        "patterns": ["What is the grading scale for the university?", "Grading Scales"],
+        "responses": ["A+ - 4.3 (90-100%), A - 4.0 (80-89%), A- - 3.7 (75-79%), B+ - 3.3 (70-74%), B - 2.7 (60-64%), C+ - 2.3 (55-59%), C - 2.0 (50-54%), F1 - 1.7 (45-49%), F2 - 1.3 (40-44%), F3 - 0.0 (0-39%)"],
+        "context_s": ""
+        },
+        {"tag":"electives",
+        "patterns": ["What are free electives?", "explain what a free elective is"],
+        "responses": ["An elective or free elective is any course that is listed in the Faculty Handbook or departmental handbook which is optional in the degree programme concerned and may be selected from any Faculty."],
+        "context_s": ""
+        },
+        {"tag":"credit requirements",
+        "patterns": ["what is my total credit requirement for this faculty", "How many credits do i need to do to be awarded my computing degree?", "what are my credit requirements", "credit requirements breakdown"],
+        "responses": ["You are required to do a total of 93 credits to be awarded your degree. 24 credits from level 1 courses (18 must be from the faculty of Science and Technology. 60 crdits from levels 2 and 3 (all courses relating to you major and or minor must be complete). Lastly, 9 credits from foundation courses (FOUN1014 - Critical Reading and Writing in Science and Technology or FOUN1019 - Creitical Reading and Writing in the Disciplies, FOUN1101 - Caribbean Civilization and FOUN1301 - Law, Governance, Economy and Society). Please note that FOUN1101 or FOUN1301 can be substituted for a foreign language."],
+        "context_s": ""
+        },
+        {"tag":"foundation courses",
+        "patterns": ["what are foundation courses", "Tell me about foundation courses"],
+        "responses": ["Foundation courses are Level I courses are designed to promote sensitivity to and awareness of distinctive features of Caribbean cosmologies, identities and culture."],
+        "context_s": ""
+        },
+        {"tag":"foundation courses required",
+        "patterns": ["what foundation courses am I required to do?", "foundation courses required", "Which foundation courses should I do for computing?"],
+        "responses": ["The foundation courses you are required to do are; FOUN1014 - Critical Readinf and Writing in Science and Technology or FOUN1019 - Creitical Reading and Writing in the Disciplies, FOUN1101 - Caribbean Civilization and FOUN1301 - Law, Governance, Economy and Society. Please note that FOUN1101 or FOUN1301 can be substituted for a foreign language."],
+        "context_s": ""
+        }
+        
+
+        
+        
+
+        
+        
+   ]
+}   

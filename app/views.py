@@ -5,7 +5,7 @@ Werkzeug Documentation:  http://werkzeug.pocoo.org/documentation/
 This file creates your application.
 """
 
-from app import app
+from app import app,main
 from flask import Flask, render_template,request,jsonify
 
 ###
@@ -25,10 +25,11 @@ def about():
 
 @app.route('/chatbot', methods=["GET", "POST"])
 def chat():
-    # if request.method == 'POST':
-    #     the_question = request.form['question']
-    #     response = main.chat(the_question)
-    #     return jsonify({"response": response })
+    if request.method == 'POST':
+        the_question = request.form['userinput']
+        if(the_question!=''):
+            response = main.chat(the_question)
+            return jsonify({"response": response })
     return render_template('chat.html')
 
 ###

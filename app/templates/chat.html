@@ -18,11 +18,28 @@
             </div>
             <div id="chatspace" class="p-3 mb-2 bg-white text-dark">
                 <div id="chatarea">
-            
+                    <div class="msg-list">
+                        <div class="messenger-container">
+                            <p>Hi, my name is CompBot</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="msg-list">
+                        <div class="messenger-container">
+                            <p>I'm a friendly AI, here to chat with you about the computing department 24/7</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="msg-list">
+                        <div class="messenger-container">
+                            <p>Type your messsage in the textbox below and we can start talking to each other</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
                 </div>
                 <div id="formdata">
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Ask me a question !" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <input type="text" id="userinput" name="userinput" class="form-control" placeholder="Ask me a question !"  aria-describedby="basic-addon2">
                         <div class="input-group-append">
                           <button id="Send" src="{{url_for('static', filename='images/buttoni.png')}}" type="submit"><img id="buttoni" src="{{url_for('static', filename='images/buttoni.png')}}"></button>
                         </div>
